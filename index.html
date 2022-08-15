@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Farmacia CSS</title>
+    <link rel="icon" href="./icons/pharmacyicon.png" type="image/x-icon">
+  </head>
+  <body>
+
+         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #5d9b9b;">
+        <a class="navbar-brand" href="./index.html" style="color: rgb(237, 238, 233);">Farmácia CSS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html" style="color: rgb(237, 238, 233);">Home<span class="sr-only">(Página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./endereco.html" style="color: rgb(237, 238, 233);">Endereço</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sobre.html" style="color: rgb(237, 238, 233);">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./avaliacoes.html" style="color: rgb(237, 238, 233);">Avaliações</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contato.html" style="color: rgb(237, 238, 233);">Entre Em Contato!</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <a href="./sobre.html"><img class="d-block w-100" src="./images/carrosselmenuum.jpg" alt="Primeiro Slide"></a> 
+          </div>
+          <div class="carousel-item">
+            <a href="./endereco.html"><img class="d-block w-100" src="./images/carrosselmenudois.jpg" alt="Segundo Slide"></a>
+          </div>
+          <div class="carousel-item">
+           <a href="./promocoes.html"><img class="d-block w-100" src="./images/promocoes.jpg" alt="Terceiro Slide"></a> 
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+
+      <div id="titulodestaques">
+        <h2>Produtos Em Destaque:</h2>
+      </div>
+
+      <div class="row container-fluid destaques" id="destaques" >
+        <div class="col-lg-4" style=" display: flex; justify-content: center; justify-content: space-around; align-items: center;">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/gaballon.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Gaballon</h5>
+                  <p class="card-text">Remédio Gaballon 20 comprimidos.</p>
+                  <a href="./gaballon.html" class="btn btn-primary">Ver mais detalhes</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4" style=" display: flex; justify-content: center; justify-content: space-around; align-items: center;">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/enotabs.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Eno Tabs</h5>
+                  <p class="card-text">Antiácido Eno Tabs 48 comprimidos</p>
+                  <a href="./enotabs.html" class="btn btn-primary">Ver Mais Detalhes</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4" style=" display: flex; justify-content: center; justify-content: space-around; align-items: center;">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/novalgina.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Novalgina</h5>
+                  <p class="card-text">Remédio Novalgina 10 comprimidos</p>
+                  <a href="./novalgina.html" class="btn btn-primary">Ver mais detalhes</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row container-fluid destaques" id="destaqueslinhadois">
+        <div class="col-lg-4" style=" display: flex; justify-content: center; justify-content: space-around; align-items: center;">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/engov.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Engov</h5>
+                  <p class="card-text">Remédio Engov 24 comprimidos</p>
+                  <a href="./engov.html" class="btn btn-primary">Ver Mais Detalhes</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4" style=" display: flex; justify-content: center; justify-content: space-around; align-items: center;">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/rinosoro.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Rinosoro</h5>
+                  <p class="card-text">Spray 50ml</p>
+                  <a href="./rinosoro.html" class="btn btn-primary">Ver Mais Detalhes</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4" style=" display: flex; justify-content: center; justify-content: space-around; align-items: center;">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/ibupril.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Ibupril</h5>
+                  <p class="card-text">Remédio Ibupril 20 comprimidos</p>
+                  <a href="./ibupril.html" class="btn btn-primary">Ver Mais Detalhes</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row container destaques" id="destaqueslinhatres">
+        <div class="col-lg-6" style=" display: flex; justify-content: center; justify-content: space-around; align-items: center;">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/cetoconazol.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Cetoconazol</h5>
+                  <p class="card-text">Creme 30g</p>
+                  <a href="./cetoconazol.html" class="btn btn-primary">Ver Mais Detalhes</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-6" style=" display: flex; justify-content: center; justify-content: space-around; align-items: center;">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/omeprazol.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Omeprazol</h5>
+                  <p class="card-text">Remédio Omeprazol 14 comprimidos</p>
+                  <a href="./omeprazol.html" class="btn btn-primary">Ver Mais Detalhes</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="rodape">
+            <h5>Desenvolvido por João Lucas Zorzi</h5>
+      </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

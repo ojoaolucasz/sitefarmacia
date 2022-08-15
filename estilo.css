@@ -1,0 +1,212 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#barranavegacao{
+    background-color: rgb(93, 155, 155);
+}
+
+#endereco {
+    margin-top: 35px;
+}
+
+#carrossel{
+    border-bottom: 3px solid;
+    color: rgb(93, 155, 155);
+}
+
+#titulodestaques{
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(93, 155, 155);
+    border-bottom: 3px solid;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#destaques{
+    margin-top: 40px;
+    text-align: center;
+}
+#destaqueslinhadois{
+    margin-top: 40px;
+    text-align: center;
+}
+#destaqueslinhatres{
+    text-align: center;
+    margin-top: 40px;
+    align-self: center;
+    padding: 15px;
+}
+.rodape{
+    margin-top: 40px;
+    background-color: rgb(78, 78, 78);
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+    margin-top: 40px;
+    border-bottom: 3px solid;
+    color: rgb(93, 155, 155);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.rua{
+    margin-top: 40px;
+    font-size: 15pt;
+}
+.mapa{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.endereco{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.mapa{
+    text-align: center;
+}
+.depoimentos{
+    text-align: center;
+    display: block;
+    border-bottom: solid 2px rgb(93, 155, 155);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+figure.imagemclientes img{
+    width: 150px;
+    margin-top: 5px;
+    border: 8px solid rgb(93, 155, 155);
+    border-radius: 20px;
+}
+.depoimentos:hover{
+    background-color: #5d9b9b;
+}
+
+#botaoavaliacao{
+    margin-top: 30px;
+    text-align: center;
+}
+.estrelas input[type=radio] {
+    display: none;
+  }
+  .estrelas label i.fa:before {
+    content:'\f005';
+    color: #FC0;
+  }
+  .estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+  }
+
+  .formulario{
+    margin-top: 15px;
+  }
+  .mensagem{
+    margin-top: 15px;
+  }
+  .botaoenviar{
+    margin-top: 10px;
+    text-align: center;
+  }
+  #tituloredesocial{
+    text-align: center;
+    margin-top: 70px;
+    border-bottom: 3px solid;
+    color: rgb(93, 155, 155);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#redesocial{
+    margin-top: 20px;
+    text-align: center;
+}
+.fotosremedios{
+    margin-top: 30px;
+}
+.descricaoremedio{
+    margin-top: 100px;
+    font-size: 17pt;
+}
+.espaco{
+    color: white;
+}
+.preco{
+    color: #5d9b9b;
+}
+.anuncio{
+    margin-top: 15px;
+    text-align: center;
+}
+.carrossel{
+    margin-top: 5px;
+    border-top: 2px solid rgb(93, 155, 155);
+    border-bottom: 2px solid rgb(93, 155, 155);
+}
+.botaovoltar{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cardinformacoes{
+    margin-top: 30px;
+    display: flex; 
+    justify-content: center; 
+    justify-content: space-around; 
+    align-items: center;
+}
+.title{
+ text-align: center;
+ border-bottom: 2px solid rgb(93, 155, 155);
+ margin-right: 70px;
+ margin-left: 70px;   
+}
+.saibamais{
+    margin-top: 30px;
+    text-align: center;
+}
+.embed{
+    position: relative;
+    width: 100%;
+}
+.embed.iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.farmacia{
+    margin-top: 5px;
+    text-align: center;
+    border-top: 2px solid #284b51;
+}
+.historia{
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15pt;
+}
+#mapadois{
+    margin-top: 50px;
+}
+#enderecodois{
+    margin-top: 10px;
+}
+.subtitulo{
+    margin-top: 30px;
+    margin-left: 30px;
+    border-bottom: 3px solid;
+    color: rgb(93, 155, 155);
+    margin-right: 850px;
+}
+.cardpromocoes{
+    margin-top: 15px;
+    display: flex; 
+    justify-content: center; 
+    justify-content: space-around; 
+    align-items: center
+}
