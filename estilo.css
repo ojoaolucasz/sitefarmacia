@@ -1,5 +1,5 @@
 *{
-  width:100%;
+ 
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,6 +10,7 @@ body {
 
 #endereco {
     margin-top: 35px;
+    float: left;
 }
 
 #carrossel{
